@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Plan your journey</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="tecnicas-tela-1.css">
+  </head>
+  <body> 
+    <h1>Plan your journey</h1>
+    <label for="">From</label>  
+    <input placeholder="Adress, station, postcode, etc." type="text" name="From" size="40" /> <br>
+    <label for="">To</label>
+    <input placeholder="Adress, station, postcode, etc." type="text" name="To" size="40" /> <br>
+   
+        <div>
+            <label for="">Date</label>
+            <input type="date" name="Date" size="40" />
+            <label for="">Time</label>
+            <input type="time" name="Time" size="40" /> 
+        </div>
+        <br>
+    <div>
+    <input type="radio" name="travel" value="Departure"/> Departure 
+    <input type="radio" name="travel" value="Arrivel"/> Arrivel <br><br>
+    </div>
+    <div>
+    <label for="">Via</label>
+    <input placeholder="Adress, station, postcode, etc." type="text" name="To" size="40" /> <br>
+    <p>What type of transport would you like to use?</p>
+        <div>
+            <input type="checkbox" name="transport" value="Bus"/><i class="fas fa-bus"></i> Bus
+            <input type="checkbox" name="transport" value="Train"/> <i class="fas fa-train"></i>Train
+        </div>
+        <div>
+            <input type="checkbox" name="transport" value="Tram"/> <i class="fas fa-tram"></i>Tram
+            <input type="checkbox" name="transport" value="Subway"/> <i class="fas fa-subway"></i>Subway
+        </div>
+        <input type="checkbox" name="transport" value="Ferry"/> <i class="fas fa-ship"></i> Ferry <br>
+
+    <p>Do you need extra time for transferring?</p> 
+
+    <input type="checkbox" name="time" value="Yes"/> Yes, calculate 5 minutes extra transfer time. <br><br>
+    </div>
+
+    <input type="submit" value="Plan my journey" />
+
+    
+
+  </body>
+</html>
